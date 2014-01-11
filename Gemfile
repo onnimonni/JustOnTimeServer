@@ -23,6 +23,8 @@ group :development do
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
+
+  gem 'terminal-notifier-guard' #OS X notifications from guard
 end
 group :development, :test do
   gem 'factory_girl_rails'
@@ -32,4 +34,5 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner', '1.0.1'
   gem 'email_spec'
+  gem 'zeus'
 end
